@@ -269,11 +269,6 @@ export default {
       } else return false;
     }
   },
-  watch: {
-    scoreToBoard() {
-      return this.scoreToBoard;
-    }
-  },
   beforeMount() {
     this.getMode();
     this.getResultToBoard();
