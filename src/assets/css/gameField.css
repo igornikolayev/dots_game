@@ -1,0 +1,69 @@
+
+.template__container {
+  background: rgba(197, 255, 207, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+}
+.game {
+  border: 4px solid rgb(243, 232, 232);
+  padding: 20px;
+  width: 60%;
+}
+.game__field {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: auto;
+}
+.game__message {
+  text-align: center;
+  font-size: 20px;
+}
+.game__block {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #121;
+  box-sizing: border-box;
+}
+.select-mode {
+  height: 40px;
+  background: #e8e8e8;
+  border-radius: 5px;
+  outline: none;
+}
+input[type="text"] {
+  background-color: #f1f1f1;
+}
+.start {
+  background: aquamarine;
+}
+.success {
+  background: greenyellow;
+}
+.fail {
+  background: red;
+}
+.score-board {
+  border: 4px solid rgb(243, 232, 232);
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+}
+.score-board__table {
+  background: #e1e1e1;
+  padding: 20px;
+}
+.score-board__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid gray;
+  font-weight: 600;
+}
+@media screen and (max-width: 850px) {
+  .game,
+  .score-board {
+    width: 100%;
+  }
+}
